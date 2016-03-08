@@ -6,7 +6,8 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-            Interface.Interface_Arayuz.Calis();
+            //Interface.Interface_Arayuz.Calis();
+            Operator_Overloading.Program.Calis();
         }
     }
 }
