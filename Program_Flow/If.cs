@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CSharp_Orneklerim.If
+namespace CSharp_Orneklerim.Program_Flow
 {
-    partial class Program
+    partial class If
     {
         public static void Calis()
         {

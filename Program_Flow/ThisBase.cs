@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace CSharp_Orneklerim.ThisBase
+namespace CSharp_Orneklerim.Program_Flow
 {
-    partial class Program
+    partial class ThisBase
     {
         public static void Calis()
         {

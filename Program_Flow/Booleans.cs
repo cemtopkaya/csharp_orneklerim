@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CSharp_Orneklerim.Booleans
+namespace CSharp_Orneklerim.Program_Flow
 {
-    partial class Program
+    partial class Booleans
     {
         public static void Calis()
         {

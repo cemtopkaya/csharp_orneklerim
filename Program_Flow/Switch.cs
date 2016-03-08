@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace CSharp_Orneklerim.Switch
+namespace CSharp_Orneklerim.Program_Flow
 {
     enum Cinsiyet
     {
         Kadin, Erkek
     }
 
-    partial class Program
+    partial class Switch
     {
 
         internal enum Turist

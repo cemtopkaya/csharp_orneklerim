@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CSharp_Orneklerim.While
+namespace CSharp_Orneklerim.Program_Flow
 {
-    partial class Program
+    partial class While
     {
         public static void Calis()
         {

@@ -1,8 +1,8 @@
-﻿namespace CSharp_Orneklerim.Interface1
+﻿namespace CSharp_Orneklerim.Interface
 {
-    partial class Program
+    partial class Interface
     {
-        public static void Calis1(string[] args)
+        public static void Calis(string[] args)
         {
             ISahipOlmaYontemi o = new Leasing();
             IKiralama o1 = new Leasing(); o = o1;
