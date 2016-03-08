@@ -2,7 +2,7 @@
 
 namespace CSharp_Orneklerim
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {

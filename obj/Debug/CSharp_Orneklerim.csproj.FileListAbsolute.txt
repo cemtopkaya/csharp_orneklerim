@@ -4,3 +4,9 @@ C:\Users\cem.topkaya\Documents\Visual Studio 2013\Projects\ConsoleApplication8\C
 C:\Users\cem.topkaya\Documents\Visual Studio 2013\Projects\ConsoleApplication8\CSharp_Orneklerim\obj\Debug\CSharp_Orneklerim.csprojResolveAssemblyReference.cache
 C:\Users\cem.topkaya\Documents\Visual Studio 2013\Projects\ConsoleApplication8\CSharp_Orneklerim\obj\Debug\CSharp_Orneklerim.exe
 C:\Users\cem.topkaya\Documents\Visual Studio 2013\Projects\ConsoleApplication8\CSharp_Orneklerim\obj\Debug\CSharp_Orneklerim.pdb
+C:\_Projeler\csharp_orneklerim\bin\Debug\CSharp_Orneklerim.exe.config
+C:\_Projeler\csharp_orneklerim\obj\Debug\CSharp_Orneklerim.exe
+C:\_Projeler\csharp_orneklerim\obj\Debug\CSharp_Orneklerim.pdb
+C:\_Projeler\csharp_orneklerim\bin\Debug\CSharp_Orneklerim.exe
+C:\_Projeler\csharp_orneklerim\bin\Debug\CSharp_Orneklerim.pdb
+C:\_Projeler\csharp_orneklerim\obj\Debug\CSharp_Orneklerim.csprojResolveAssemblyReference.cache
