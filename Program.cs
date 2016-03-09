@@ -6,7 +6,7 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-            Interface.Interface_Arayuz.Calis();
+            Delegate_Temsilci.Calis();
         }
     }
 }

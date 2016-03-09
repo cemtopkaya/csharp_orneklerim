@@ -42,21 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\Program_Abstract.cs" />
-    <Compile Include="Abstract\Program_Abstract_2.cs" />
+    <Compile Include="Abstract\Abstract.cs" />
+    <Compile Include="Abstract\Abstract2.cs" />
     <Compile Include="Delegate_Event\Lambda.cs" />
     <Compile Include="Delegate_Event\Delegate_Temsilci.cs" />
     <Compile Include="Interface\Interface_Arayuz.cs" />
-    <Compile Include="Interface\Program_Interface.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Program_Flow\Program_Booleans.cs" />
-    <Compile Include="Program_Flow\Program_DoWhile.cs" />
-    <Compile Include="Program_Flow\Program_For.cs" />
-    <Compile Include="Program_Flow\Program_If.cs" />
-    <Compile Include="Program_Flow\Program_Interface.cs" />
-    <Compile Include="Program_Flow\Program_Switch.cs" />
-    <Compile Include="Program_Flow\Program_this_base.cs" />
-    <Compile Include="Program_Flow\Program_While.cs" />
+    <Compile Include="Program_Flow\Booleans.cs" />
+    <Compile Include="Program_Flow\DoWhile.cs" />
+    <Compile Include="Program_Flow\For.cs" />
+    <Compile Include="Program_Flow\If.cs" />
+    <Compile Include="Interface\Interface.cs" />
+    <Compile Include="Program_Flow\Switch.cs" />
+    <Compile Include="Program_Flow\ThisBase.cs" />
+    <Compile Include="Program_Flow\While.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Delegate_Event\Delegate_Event.cs" />
     <Compile Include="Threading_Event\Threading_Event_SpeechSynthesizer.cs" />

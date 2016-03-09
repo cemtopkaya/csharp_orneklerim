@@ -52,7 +52,7 @@ namespace CSharp_Orneklerim.Program_Flow
             else if (_turist == "Dil") { }
             else if (_turist == "Cins") { }
         }
-        public static void GetirIstatistik(Program.Turist _turist)
+        public static void GetirIstatistik(Switch.Turist _turist)
         {
             switch (_turist)
             {

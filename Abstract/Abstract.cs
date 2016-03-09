@@ -2,7 +2,7 @@
 
 namespace CSharp_Orneklerim.Abstract
 {
-    partial class Program
+    partial class Abstract
     {
         public static void Calis(string[] args)
         {
