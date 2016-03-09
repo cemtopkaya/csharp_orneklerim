@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharp_Orneklerim.Delegate_Event
 {
@@ -58,8 +53,8 @@ namespace CSharp_Orneklerim.Delegate_Event
 
             //------------------------------------------------------------------------------------------
             // STATIC_VAR:
-            Lambda.static_delegate_degisken = (a) => a += 1;
-            Lambda.static_delegate_degisken(3); // 4 dönecektir
+            static_delegate_degisken = (a) => a += 1;
+            static_delegate_degisken(3); // 4 dönecektir
         }
 
         static int f_tekParametreIntDonuslu(int _param)

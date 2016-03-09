@@ -2,12 +2,13 @@
 
 namespace CSharp_Orneklerim
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
             //Interface.Interface_Arayuz.Calis();
             Indexer_Indeksleyiciler.Program.Calis();
+            Delegate_Temsilci.Calis();
         }
     }
 }
