@@ -45,8 +45,10 @@
   <ItemGroup>
     <Compile Include="Abstract\Abstract.cs" />
     <Compile Include="Abstract\Abstract2.cs" />
-    <Compile Include="Delegate_Event\Lambda.cs" />
-    <Compile Include="Delegate_Event\Delegate_Temsilci.cs" />
+    <Compile Include="Delegate_Event\Delegate_Action_Func.cs" />
+    <Compile Include="Delegate_Event\Delegate_02.cs" />
+    <Compile Include="Delegate_Event\Delegate_01.cs" />
+    <Compile Include="Delegate_Event\Event_01.cs" />
     <Compile Include="De_Serialization\DeSerialization.cs" />
     <Compile Include="Indexer_Indeksleyiciler\Indexer.cs" />
     <Compile Include="Interface\Interface_Arayuz.cs" />
@@ -61,7 +63,7 @@
     <Compile Include="Program_Flow\ThisBase.cs" />
     <Compile Include="Program_Flow\While.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Delegate_Event\Delegate_Event.cs" />
+    <Compile Include="Delegate_Event\Event_02.cs" />
     <Compile Include="Threading_Event\Threading_Event_SpeechSynthesizer.cs" />
   </ItemGroup>
   <ItemGroup>

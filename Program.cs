@@ -1,4 +1,6 @@
-﻿using CSharp_Orneklerim.Delegate_Event;
+﻿using System;
+using System.IO;
+using CSharp_Orneklerim.Delegate_Event;
 
 namespace CSharp_Orneklerim
 {
@@ -6,9 +8,7 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-            Indexer_Indeksleyiciler.Program.Calis();
-            Delegate_Temsilci.Calis();
-            //denemek için
+            Event_01.Calis();
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace CSharp_Orneklerim.Delegate_Event
 {
-    public class Delegate_001
+    public class Event_02
     {
         public static void Calis()
         {
