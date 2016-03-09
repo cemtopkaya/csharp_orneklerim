@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Delegate_Event\Lambda.cs" />
     <Compile Include="Delegate_Event\Delegate_Temsilci.cs" />
+    <Compile Include="Indexer_Indeksleyiciler\Indexer.cs" />
     <Compile Include="Interface\Interface_Arayuz.cs" />
     <Compile Include="Operator_Overloading\OperatorOverloading.cs" />
     <Compile Include="Program.cs" />

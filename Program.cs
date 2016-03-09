@@ -7,7 +7,7 @@ namespace CSharp_Orneklerim
         static void Main(string[] args)
         {
             //Interface.Interface_Arayuz.Calis();
-            Operator_Overloading.Program.Calis();
+            Indexer_Indeksleyiciler.Program.Calis();
         }
     }
 }
