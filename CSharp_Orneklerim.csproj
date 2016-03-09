@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,7 @@
     <Compile Include="Abstract\Abstract2.cs" />
     <Compile Include="Delegate_Event\Lambda.cs" />
     <Compile Include="Delegate_Event\Delegate_Temsilci.cs" />
+    <Compile Include="De_Serialization\DeSerialization.cs" />
     <Compile Include="Indexer_Indeksleyiciler\Indexer.cs" />
     <Compile Include="Interface\Interface_Arayuz.cs" />
     <Compile Include="Operator_Overloading\OperatorOverloading.cs" />
