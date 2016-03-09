@@ -6,9 +6,9 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-            //Interface.Interface_Arayuz.Calis();
             Indexer_Indeksleyiciler.Program.Calis();
             Delegate_Temsilci.Calis();
+            //denemek için
         }
     }
 }
