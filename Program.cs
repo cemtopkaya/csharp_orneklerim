@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using CSharp_Orneklerim.Delegate_Event;
+using CSharp_Orneklerim.Indexer_Indeksleyiciler;
 
 namespace CSharp_Orneklerim
 {
@@ -8,7 +9,7 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-            Event_01.Calis();
+            Reflection.Reflection.Calis();
         }
     }
 }

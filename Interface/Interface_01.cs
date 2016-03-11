@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Orneklerim.Interface
 {
-    partial class Interface
+    partial class Interface_01
     {
         public static void Calis(string[] args)
         {

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Threading;
 
-namespace CSharp_Orneklerim.Indexer_Indeksleyiciler
+namespace CSharp_Orneklerim.Interface
 {
     public class Program
     {
@@ -18,27 +15,6 @@ namespace CSharp_Orneklerim.Indexer_Indeksleyiciler
             Kisi cenk = (Kisi)cem.Clone();
             cenk.Adi = "Cenk";
             cenk.TCNo = 88740473564;
-            cenk.Meslegi.MeslekEkle(new Meslek()
-                                    {
-                                        MeslekAdi = "Tüccar",
-                                        OrtalamaYillikGeliri = 200
-                                    });
-            cenk.Meslegi.MeslekEkle(new Meslek()
-                                    {
-                                        MeslekAdi = "Uzay Müh",
-                                        OrtalamaYillikGeliri = 100
-                                    });
-            cenk.Meslegi.MeslekEkle(new Meslek()
-                                    {
-                                        MeslekAdi = "Öğretmen",
-                                        OrtalamaYillikGeliri = 300
-                                    });
-            cenk.Meslegi.MeslekEkle(new Meslek()
-                                    {
-                                        MeslekAdi = "Çiftçi",
-                                        OrtalamaYillikGeliri = 250
-                                    });
-            cenk.Meslegi["Çiftçi"] = cenk.Meslegi[1];
         }
     }
 
@@ -47,44 +23,6 @@ namespace CSharp_Orneklerim.Indexer_Indeksleyiciler
     {
         public string MeslekAdi;
         public int OrtalamaYillikGeliri;
-
-        private Meslek[] _mesleks = new Meslek[3];
-        public Meslek this[int idx]
-        {
-            get { return _mesleks[idx]; }
-            set { _mesleks[idx] = value; }
-        }
-        public Meslek this[string meslekAdi]
-        {
-            get { return _mesleks.FirstOrDefault(m => m.MeslekAdi == meslekAdi); }
-            set
-            {
-                var guncellenecekMeslek = _mesleks.FirstOrDefault(m => m.MeslekAdi == meslekAdi);
-                if (guncellenecekMeslek != null)
-                {
-                    guncellenecekMeslek = value;
-                }
-            }
-        }
-
-
-        public void MeslekEkle(Meslek _yeniMeslek)
-        {
-            int i = 0;
-            for (i = 0; i < _mesleks.Length; i++)
-            {
-                if (_mesleks[i] == null)
-                {
-                    _mesleks[i] = _yeniMeslek;
-                    break;
-                }
-            }
-            // Eğer 3 mesleğide varsa sonuncusunu değiştiriyoruz gelenle
-            if (i == _mesleks.Length)
-            {
-                _mesleks[_mesleks.Length - 1] = _yeniMeslek;
-            }
-        }
     }
 
     interface IKisi : ICloneable, IComparable
