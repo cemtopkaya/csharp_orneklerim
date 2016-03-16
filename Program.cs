@@ -9,7 +9,7 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-            Reflection.Reflection.Calis();
+           Class.AnonymousClass.Calis();
         }
     }
 }
