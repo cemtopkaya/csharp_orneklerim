@@ -10,7 +10,11 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Operators_Islecler.Calis();
+=======
+           Class.AnonymousClass.Calis();
+>>>>>>> 758456619b2572fa33b20f7cbdadbc36ee3b2db3
         }
     }
 }

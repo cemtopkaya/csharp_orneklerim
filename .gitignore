@@ -1,1 +1,6 @@
 /Interface/*.TMP
+bin
+obj
+*.user
+*.SUO
+*.sln.DotSettings.user

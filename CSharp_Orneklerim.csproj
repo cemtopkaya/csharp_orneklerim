@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Abstract\Abstract.cs" />
     <Compile Include="Abstract\Abstract2.cs" />
+    <Compile Include="Class\AnonymousClass.cs" />
     <Compile Include="Delegate_Event\Delegate_Action_Func.cs" />
     <Compile Include="Delegate_Event\Delegate_02.cs" />
     <Compile Include="Delegate_Event\Delegate_01.cs" />
