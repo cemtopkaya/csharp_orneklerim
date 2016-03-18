@@ -2,7 +2,7 @@
 
 namespace CSharp_Orneklerim.Interface
 {
-    public class Program
+    public class Interface_02
     {
         public static void Calis()
         {

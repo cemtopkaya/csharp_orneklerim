@@ -52,6 +52,7 @@
     <Compile Include="Delegate_Event\Event_01.cs" />
     <Compile Include="De_Serialization\DeSerialization.cs" />
     <Compile Include="Indexer_Indeksleyiciler\Indexer_01.cs" />
+    <Compile Include="Interface\Interface_03.cs" />
     <Compile Include="Interface\Interface_02.cs" />
     <Compile Include="Indexer_Indeksleyiciler\Indexer_02.cs" />
     <Compile Include="Operator_Overloading\Operators_Islecler.cs" />
