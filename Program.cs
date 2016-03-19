@@ -2,6 +2,7 @@
 using System.IO;
 using CSharp_Orneklerim.Delegate_Event;
 using CSharp_Orneklerim.Indexer_Indeksleyiciler;
+using CSharp_Orneklerim.Operator_Overloading;
 
 namespace CSharp_Orneklerim
 {
@@ -9,7 +10,7 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-           Class.AnonymousClass.Calis();
+            Pointers.Pointer.Calis();
         }
     }
 }

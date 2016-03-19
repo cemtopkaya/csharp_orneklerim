@@ -1,3 +1,7 @@
+/Interface/*.TMP
 bin
 obj
 *.user
+*.SUO
+*.suo
+*.sln.DotSettings.user
