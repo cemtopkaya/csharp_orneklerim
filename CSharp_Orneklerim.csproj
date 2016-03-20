@@ -56,6 +56,7 @@
     <Compile Include="Interface\Interface_03.cs" />
     <Compile Include="Interface\Interface_02.cs" />
     <Compile Include="Indexer_Indeksleyiciler\Indexer_02.cs" />
+    <Compile Include="Linq\Linq_01_Select.cs" />
     <Compile Include="Operator_Overloading\Operators_Islecler.cs" />
     <Compile Include="Operator_Overloading\OperatorOverloading.cs" />
     <Compile Include="Pointers\Pointer.cs" />

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace CSharp_Orneklerim.Interface
 {
@@ -15,6 +17,15 @@ namespace CSharp_Orneklerim.Interface
             Kisi cenk = (Kisi)cem.Clone();
             cenk.Adi = "Cenk";
             cenk.TCNo = 88740473564;
+            cenk.Meslegi = new Meslek() {MeslekAdi = "Tüccar", OrtalamaYillikGeliri = 120};
+
+
+            List<Kisi> lst = new List<Kisi>()
+            {
+                cenk,cem
+            };
+            // Sort metodu IComparable arayüzünden gelen CompareTo metodunu çalıştırarak sıralayacak
+            lst.Sort();
         }
     }
 
