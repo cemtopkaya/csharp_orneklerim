@@ -12,7 +12,8 @@ namespace CSharp_Orneklerim
     {
         static void Main(string[] args)
         {
-            Linq_01_Select.Calis();
+            //Linq_01_Select.Calis();
+            Indexer_01.Calis();
         }
     }
 }

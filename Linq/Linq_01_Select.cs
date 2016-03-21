@@ -2,12 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.Remoting;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CSharp_Orneklerim.Linq
 {
+    class Kisi
+    {
+        public string Adi;
+    }
+
     class Linq_01_Select
     {
         public static void Calis()
