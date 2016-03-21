@@ -9,10 +9,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Orneklerim.Linq
 {
-    class Kisi
-    {
-        public string Adi;
-    }
+    
 
     class Linq_01_Select
     {
