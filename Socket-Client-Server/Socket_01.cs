@@ -17,6 +17,26 @@ namespace CSharp_Orneklerim.Socket_Client_Server
             //Basit_Client_Server();
 
             // 02. Çok istemcili sunucu örneği
+            // Cok_Threadli_Client_Server();
+        }
+
+        /// <summary>
+        /// 01. En basit haliyle istemci sunucu örneği
+        /// </summary>
+        static public void Basit_Client_Server()
+        {
+            var t1 = Task.Factory.StartNew(Istemci.Istemci1);
+            var t2 = Task.Factory.StartNew(Sunucu.Sunucu1);
+            // Tüm tasklar tamamlanıncaya kadar bekleyeceğiz (bir yerde readline varsa epey bekleriz)
+            Task.WaitAll(t1, t2);
+        }
+
+        /// <summary>
+        /// 02. Çok istemcili sunucu örneği
+        /// </summary>
+        static void Cok_Threadli_Client_Server()
+        {
+
             List<Task> taskList = new List<Task>();
 
             Task taskSunucu = Task.Factory.StartNew(Sunucu.Sunucu2);
@@ -31,16 +51,6 @@ namespace CSharp_Orneklerim.Socket_Client_Server
             Task.WaitAll(taskList.ToArray());
         }
 
-        /// <summary>
-        /// 01. En basit haliyle istemci sunucu örneği
-        /// </summary>
-        static public void Basit_Client_Server()
-        {
-            var t1 = Task.Factory.StartNew(Istemci.Istemci1);
-            var t2 = Task.Factory.StartNew(Sunucu.Sunucu1);
-            // Tüm tasklar tamamlanıncaya kadar bekleyeceğiz (bir yerde readline varsa epey bekleriz)
-            Task.WaitAll(t1, t2);
-        }
     }
 
     class Sunucu
