@@ -7,17 +7,26 @@ using System.Threading.Tasks;
 
 namespace CSharp_Orneklerim.Pointers
 {
+    struct Sinif
+    {
+         
+    }
     class Pointer
     {
         public static void Calis()
         {
-            Pointer_2();
+            Pointer_1();
         }
 
         public static void Pointer_1()
         {
             unsafe
             {
+
+                Sinif s = new Sinif();
+                Sinif* s1;
+                s1 = &s;
+
                 // int tipinde i adında bir değişken oluşturuyoruz ve içine 100 yazıyoruz
                 // i=100 ile değerini atıyoruz. Yani i diyerek çağırdığımızda değerini alacağız
                 // &i diyerek çağırdığımızdaysa adresini elde edebiliyoruz
