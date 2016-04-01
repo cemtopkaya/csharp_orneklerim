@@ -47,6 +47,7 @@
     <Compile Include="Abstract\Abstract.cs" />
     <Compile Include="Abstract\Abstract2.cs" />
     <Compile Include="Alias\Alias.cs" />
+    <Compile Include="Array_List_Dictionary\Diziler.cs" />
     <Compile Include="Class\AnonymousClass.cs" />
     <Compile Include="Delegate_Event\Delegate_Action_Func.cs" />
     <Compile Include="Delegate_Event\Delegate_02.cs" />
@@ -75,6 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Delegate_Event\Event_02.cs" />
     <Compile Include="Reflection\Reflection.cs" />
+    <Compile Include="Socket-Client-Server\Socket_01.cs" />
+    <Compile Include="Task-Lambda-Delegate\Class1.cs" />
+    <Compile Include="Task-Lambda-Delegate\Task_01.cs" />
     <Compile Include="Threading_Event\Threading_Event_SpeechSynthesizer.cs" />
   </ItemGroup>
   <ItemGroup>
