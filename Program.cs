@@ -17,7 +17,8 @@ namespace CSharp_Orneklerim
             //Pointer.Calis();
             //Linq_01_Select.Calis();
             //Indexer_01.Calis();
-            GenericClass.Calis();
+            //GenericClass.Calis();
+            Alias.Alias.Calis();
         }
     }
 
