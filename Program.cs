@@ -8,6 +8,7 @@ using CSharp_Orneklerim.Linq;
 using CSharp_Orneklerim.Operator_Overloading;
 using CSharp_Orneklerim.Pointers;
 using CSharp_Orneklerim.Socket_Client_Server;
+using CSharp_Orneklerim.Threading_Event;
 
 namespace CSharp_Orneklerim
 {
@@ -20,10 +21,15 @@ namespace CSharp_Orneklerim
             //Indexer_01.Calis();
             //GenericClass.Calis();
             //Alias.Alias.Calis();
-            Socket_01.Calis();
+            //Socket_01.Calis();
+            //ThreadStart_Join_01.Calis();
+            //isBackground_02.Calis();
+            //ParameterizedThread_03.Calis();
+            //Thread_Abort_04.Calis();
+            //ThreadStatic_05.Calis();
+            ThreadLocalT_06.Calis();
 
-            Action<int> c = (a) => { Console.WriteLine("A: " + a); };
-            c(12);
+
         }
     }
 

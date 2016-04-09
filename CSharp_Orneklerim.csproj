@@ -79,7 +79,13 @@
     <Compile Include="Socket-Client-Server\Socket_01.cs" />
     <Compile Include="Task-Lambda-Delegate\Class1.cs" />
     <Compile Include="Task-Lambda-Delegate\Task_01.cs" />
+    <Compile Include="Threading_Event\ThreadLocalT_06.cs" />
+    <Compile Include="Threading_Event\ThreadStatic_05.cs" />
+    <Compile Include="Threading_Event\Thread_Abort_04.cs" />
+    <Compile Include="Threading_Event\ParameterizedThread_03.cs" />
     <Compile Include="Threading_Event\Threading_Event_SpeechSynthesizer.cs" />
+    <Compile Include="Threading_Event\isBackground_02.cs" />
+    <Compile Include="Threading_Event\ThreadStart_Join_01.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
