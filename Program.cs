@@ -27,8 +27,9 @@ namespace CSharp_Orneklerim
             //ParameterizedThread_03.Calis();
             //Thread_Abort_04.Calis();
             //ThreadStatic_05.Calis();
-            ThreadLocalT_06.Calis();
-
+            //ThreadLocalT_06.Calis();
+            //ThreadPool_07.Calis();
+            Task_01.Calis();
 
         }
     }

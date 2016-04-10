@@ -31,8 +31,6 @@ namespace CSharp_Orneklerim.Threading_Event
 
         public static void Calis()
         {
-
-
             var stopWatch = Stopwatch.StartNew();
 
             new Thread((son) =>

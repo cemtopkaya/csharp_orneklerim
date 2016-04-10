@@ -8,6 +8,9 @@ using System.Diagnostics;
 
 namespace CSharp_Orneklerim.Threading_Event
 {
+    /// <summary>
+    /// BackgroundWorker does well with network accesses and other simple stuff. 
+    /// </summary>
     class isBackground_02
     {
         public static void Calis()
