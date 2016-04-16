@@ -38,6 +38,8 @@ namespace CSharp_Orneklerim.Linq
             };
 
             var a = customer.Select1(arg => arg.FirstName);
+            var b = customer.Where(c => c.FirstName.Length > 5);
+            var first = customer.First1(f => f.FirstName.StartsWith("D"));
             var grps = customer.GroupBy(c => c.CompanyName);
         }
 
@@ -45,6 +47,31 @@ namespace CSharp_Orneklerim.Linq
 
     static class Benim
     {
+        public static T First1<T>(this IEnumerable<T> t, Func<T, bool> f)
+        {
+            foreach (var item in t)
+            {
+                bool b = f(item);
+                if (b)
+                {
+                    return item;
+                }
+            }
+            return default(T);
+        }
+        public static IEnumerable<T> Where1<T>(this IEnumerable<T> t, Func<T, bool> f)
+        {
+            List<T> list = new List<T>();
+            foreach (var item in t)
+            {
+                bool b = f(item);
+                if (b)
+                {
+                    list.Add(item);
+                }
+            }
+            return list;
+        }
         public static IEnumerable<TR> Select1<TS, TR>(this IEnumerable<TS> t, Func<TS, TR> f)
         {
             var select1 = new List<TR>();

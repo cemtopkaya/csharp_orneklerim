@@ -17,7 +17,7 @@ namespace CSharp_Orneklerim
         static void Main(string[] args)
         {
             //Pointer.Calis();
-            //Linq_01_Select.Calis();
+            Linq_01_Select.Calis();
             //Indexer_01.Calis();
             //GenericClass.Calis();
             //Alias.Alias.Calis();
@@ -29,7 +29,7 @@ namespace CSharp_Orneklerim
             //ThreadStatic_05.Calis();
             //ThreadLocalT_06.Calis();
             //ThreadPool_07.Calis();
-            Task_01.Calis();
+            //Task_01.Calis();
 
         }
     }
