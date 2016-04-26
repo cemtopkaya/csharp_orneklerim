@@ -48,6 +48,7 @@
     <Compile Include="Abstract\Abstract2.cs" />
     <Compile Include="Alias\Alias.cs" />
     <Compile Include="Array_List_Dictionary\Diziler.cs" />
+    <Compile Include="Attributes\TemelAttributes.cs" />
     <Compile Include="Class\AnonymousClass.cs" />
     <Compile Include="Delegate_Event\Delegate_Action_Func.cs" />
     <Compile Include="Delegate_Event\Delegate_02.cs" />
