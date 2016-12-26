@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CSharp_Orneklerim.Task_Lambda_Delegate
@@ -57,7 +58,7 @@ namespace CSharp_Orneklerim.Task_Lambda_Delegate
         static private int GetSum(int a, int b)
         {
             return a + b;
-        } 
+        }
         #endregion
     }
 }

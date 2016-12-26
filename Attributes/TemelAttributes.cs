@@ -56,7 +56,7 @@ namespace CSharp_Orneklerim.Attributes
      */
 
 
-    [AttributeUsage(AttributeTargets.Assembly)]
+    //[AttributeUsage(AttributeTargets.Assembly)]
     class Benim_Attribute
     {
 

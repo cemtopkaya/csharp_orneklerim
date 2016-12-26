@@ -9,6 +9,9 @@ using CSharp_Orneklerim.Operator_Overloading;
 using CSharp_Orneklerim.Pointers;
 using CSharp_Orneklerim.Socket_Client_Server;
 using CSharp_Orneklerim.Threading_Event;
+using System.Threading;
+using System.Threading.Tasks;
+using CSharp_Orneklerim.Task_Lambda_Delegate;
 
 namespace CSharp_Orneklerim
 {
@@ -17,7 +20,7 @@ namespace CSharp_Orneklerim
         static void Main(string[] args)
         {
             //Pointer.Calis();
-            Linq_01_Select.Calis();
+            //Linq_01_Select.Calis();
             //Indexer_01.Calis();
             //GenericClass.Calis();
             //Alias.Alias.Calis();
@@ -30,7 +33,7 @@ namespace CSharp_Orneklerim
             //ThreadLocalT_06.Calis();
             //ThreadPool_07.Calis();
             //Task_01.Calis();
-
+            Task_02.Calis();
         }
     }
 
