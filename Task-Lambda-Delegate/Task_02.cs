@@ -4,6 +4,9 @@ using System.Threading.Tasks;
 
 namespace CSharp_Orneklerim.Task_Lambda_Delegate
 {
+    /// <summary>
+    /// CancellationTokenSource parametresi nasıl kullanılıyor
+    /// </summary>
     public class Task_02
     {
         static public void Calis()

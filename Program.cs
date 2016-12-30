@@ -33,7 +33,9 @@ namespace CSharp_Orneklerim
             //ThreadLocalT_06.Calis();
             //ThreadPool_07.Calis();
             //Task_01.Calis();
-            Task_02.Calis();
+            //Task_02.Calis();
+            //Task_03.Calis();
+            Task_04.Calis();
         }
     }
 

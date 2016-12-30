@@ -79,8 +79,13 @@
     <Compile Include="Reflection\Reflection.cs" />
     <Compile Include="Socket-Client-Server\Socket_01.cs" />
     <Compile Include="Task-Lambda-Delegate\Class1.cs" />
+    <Compile Include="Task-Lambda-Delegate\Task_04.cs" />
+    <Compile Include="Task-Lambda-Delegate\Task_03.cs" />
+    <Compile Include="Task-Lambda-Delegate\Task_02.cs" />
     <Compile Include="Task-Lambda-Delegate\Task_01.cs" />
+    <Compile Include="Threading_Event\BeginInvoke_EndInvokePattern.cs" />
     <Compile Include="Threading_Event\BeginInvoke_CallbackPattern.cs" />
+    <Compile Include="Threading_Event\BeginInvoke_Polling.cs" />
     <Compile Include="Threading_Event\BeginInvoke_WaitHandlePattern.cs" />
     <Compile Include="Threading_Event\Task_01.cs" />
     <Compile Include="Threading_Event\ThreadLocalT_06.cs" />
