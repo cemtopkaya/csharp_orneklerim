@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CSharp_Orneklerim.Threading_Event
+namespace CSharp_Orneklerim.Asenkron_Calling._1_Threading
 {
     /// <summary>
     /// ThreadPool manages a group of threads. 

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CSharp_Orneklerim.Task_Lambda_Delegate
+namespace CSharp_Orneklerim.Asenkron_Calling._4_TPL
 {
     class Task_01
     {

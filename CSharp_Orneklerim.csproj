@@ -79,30 +79,29 @@
     <Compile Include="Reflection\Reflection.cs" />
     <Compile Include="Socket-Client-Server\Socket_01.cs" />
     <Compile Include="Task-Lambda-Delegate\Class1.cs" />
-    <Compile Include="Asenkron Calling\5-TPL\Task_04.cs" />
-    <Compile Include="Asenkron Calling\5-TPL\Task_03.cs" />
-    <Compile Include="Asenkron Calling\5-TPL\Task_02.cs" />
-    <Compile Include="Asenkron Calling\5-TPL\Task_01.cs" />
-    <Compile Include="Asenkron Calling\2-APM\BeginInvoke_EndInvokePattern.cs" />
-    <Compile Include="Asenkron Calling\2-APM\BeginInvoke_CallbackPattern.cs" />
-    <Compile Include="Asenkron Calling\2-APM\BeginInvoke_Polling.cs" />
-    <Compile Include="Asenkron Calling\2-APM\BeginInvoke_WaitHandlePattern.cs" />
-    <Compile Include="Asenkron Calling\4-TAP\Task_01.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\ThreadLocalT_06.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\ThreadPool_07.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\ThreadStatic_05.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\Thread_Abort_04.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\ParameterizedThread_03.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\Threading_Event_SpeechSynthesizer.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\isBackground_02.cs" />
-    <Compile Include="Asenkron Calling\1-Threading\ThreadStart_Join_01.cs" />
+    <Compile Include="Asenkron_Calling\_5_TPL\Task_04.cs" />
+    <Compile Include="Asenkron_Calling\_5_TPL\Task_03.cs" />
+    <Compile Include="Asenkron_Calling\_5_TPL\Task_02.cs" />
+    <Compile Include="Asenkron_Calling\_5_TPL\Task_01.cs" />
+    <Compile Include="Asenkron_Calling\_2_APM\BeginInvoke_EndInvokePattern.cs" />
+    <Compile Include="Asenkron_Calling\_2_APM\BeginInvoke_CallbackPattern.cs" />
+    <Compile Include="Asenkron_Calling\_2_APM\BeginInvoke_Polling.cs" />
+    <Compile Include="Asenkron_Calling\_2_APM\BeginInvoke_WaitHandlePattern.cs" />
+    <Compile Include="Asenkron_Calling\_4_TAP\Task_01.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\ThreadLocalT_06.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\ThreadPool_07.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\ThreadStatic_05.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\Thread_Abort_04.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\ParameterizedThread_03.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\Threading_Event_SpeechSynthesizer.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\isBackground_02.cs" />
+    <Compile Include="Asenkron_Calling\_1_Threading\ThreadStart_Join_01.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Asenkron Calling\3-EAP\" />
-    <Folder Include="Threading_Event\" />
+    <Folder Include="Asenkron_Calling\_3_EAP\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

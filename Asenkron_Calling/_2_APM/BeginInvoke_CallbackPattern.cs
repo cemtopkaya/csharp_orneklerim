@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CSharp_Orneklerim.Threading_Event
+namespace CSharp_Orneklerim.Asenkron_Calling._2_APM
 {
     class BeginInvoke_CallbackPattern
     {

@@ -2,7 +2,7 @@
 using System.Speech.Synthesis;
 using System.Threading;
 
-namespace CSharp_Orneklerim.Threading_Event
+namespace CSharp_Orneklerim.Asenkron_Calling._1_Threading
 {
     public class Threading_Event_SpeechSynthesizer
     {

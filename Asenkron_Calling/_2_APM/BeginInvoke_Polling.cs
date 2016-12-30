@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading;
 
-namespace CSharp_Orneklerim.Threading_Event
+namespace CSharp_Orneklerim.Asenkron_Calling._2_APM
 {
     class BeginInvoke_Polling
     {

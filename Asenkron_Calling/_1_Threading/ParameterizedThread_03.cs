@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
-namespace CSharp_Orneklerim.Threading_Event
+namespace CSharp_Orneklerim.Asenkron_Calling._1_Threading
 {
     /// <summary>
     /// public delegate void ParameterizedThreadStart(object obj);
